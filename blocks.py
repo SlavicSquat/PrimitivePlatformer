@@ -2,8 +2,8 @@ from pygame.sprite import Sprite, collide_rect
 from pygame import Surface
 import pygame
 
-PLATFORM_WIDTH = 32
-PLATFORM_HEIGHT = 32
+PLATFORM_WIDTH = 15
+PLATFORM_HEIGHT = 15
 PLATFORM_COLOR = (0, 0, 0)
 
 

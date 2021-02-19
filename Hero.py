@@ -3,10 +3,10 @@ from pygame import Surface
 import pygame
 
 MOVE_SPEED = 10
-WIDTH = 30
-HEIGHT = 70
+WIDTH = 20
+HEIGHT = 50
 COLOR = (0, 100, 0)
-JUMP_POWER = 10
+JUMP_POWER = 6.5
 GRAVITY = 0.35
 
 ANIM_LEFT = [pygame.image.load(r'data\sprites\Hero\Hero_left_0.png'),

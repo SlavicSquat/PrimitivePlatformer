@@ -6,4 +6,4 @@ class Fone(pygame.sprite.Sprite):
         pygame.sprite.Sprite.__init__(self)
         self.image = pygame.image.load(FONE_PATH)
         self.image = pygame.transform.scale(self.image, (2970, 780))
-        self.rect = pygame.Rect(30, 30, 2970, 820)
+        self.rect = pygame.Rect(0, 0, 2970, 820)

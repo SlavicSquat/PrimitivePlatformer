@@ -4,8 +4,8 @@ from blocks import Platform
 
 clock = pygame.time.Clock()
 
-SNAKE_WIDTH = 30
-SNAKE_HEIGHT = 70
+SNAKE_WIDTH = 20
+SNAKE_HEIGHT = 50
 SNAKE_COLOR = (0, 100, 0)
 
 PLATFORM_WIDTH = 32
