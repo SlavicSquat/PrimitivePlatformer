@@ -15,11 +15,11 @@ class Platform(pygame.sprite.Sprite):
         self.rect = pygame.Rect(x, y, PLATFORM_WIDTH, PLATFORM_HEIGHT)
 
 
-class False_Platform(pygame.sprite.Sprite):
+class Finish(pygame.sprite.Sprite):
     def __init__(self, x, y):
         pygame.sprite.Sprite.__init__(self)
         self.image = Surface((PLATFORM_WIDTH, PLATFORM_HEIGHT))
-        self.image.fill(pygame.Color(PLATFORM_COLOR))
+        self.image.fill(pygame.Color(255, 0, 0))
         self.rect = pygame.Rect(x, y, PLATFORM_WIDTH, PLATFORM_HEIGHT)
 
 
